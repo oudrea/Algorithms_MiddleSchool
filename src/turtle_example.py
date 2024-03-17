@@ -16,12 +16,17 @@ def rectangle(height, width, color):
         t.right(90)
     t.end_fill()
     t.penup()
-
+    
+    
+t.speed(0)
+t.ht()
+turtle.bgcolor('yellow')
 t.penup()
 t.goto(-50,-50)
 rectangle(50,50,'red')
 t.goto(300,300)
 rectangle(50,60,'blue')
+
 
 
 window.exitonclick()
